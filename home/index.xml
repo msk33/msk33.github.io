@@ -31,15 +31,6 @@ Star</description>
     </item>
     
     <item>
-      <title>Recent Posts</title>
-      <link>https://msk33.github.io/home/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://msk33.github.io/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Academic Kickstart</title>
       <link>https://msk33.github.io/home/demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,6 +48,15 @@ For inspiration, check out the Markdown files which power the personal demo. The
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://msk33.github.io/home/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What&#39;s new</title>
+      <link>https://msk33.github.io/home/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://msk33.github.io/home/posts/</guid>
       <description></description>
     </item>
     
