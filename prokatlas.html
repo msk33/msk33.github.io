@@ -10,7 +10,7 @@
   <meta name="generator" content="Hugo 0.54.0" />
   <meta name="author" content="ProkAtlas">
   <meta name="description" content="Habitat Database of Prokaryotes">
-  <link rel="alternate" hreflang="en-us" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html">
+  <link rel="alternate" hreflang="en-us" href="https://msk33.github.io/prokatlas.html">
 
   <meta name="theme-color" content="#795548">
   
@@ -55,8 +55,8 @@
   
 
   
-  <link rel="alternate" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html" type="application/rss+xml" title="ProkAtlas">
-  <link rel="feed" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html" type="application/rss+xml" title="ProkAtlas">
+  <link rel="alternate" href="https://msk33.github.io/prokatlas.html" type="application/rss+xml" title="ProkAtlas">
+  <link rel="feed" href="https://msk33.github.io/prokatlas.html" type="application/rss+xml" title="ProkAtlas">
   
 
   <link rel="manifest" href="https://msk33.github.io/site.webmanifest">
@@ -75,7 +75,7 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="ProkAtlas">
-  <meta property="og:url" content="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html">
+  <meta property="og:url" content="https://msk33.github.io/prokatlas.html">
   <meta property="og:title" content="ProkAtlas">
   <meta property="og:description" content="Habitat Database of Prokaryotes"><meta property="og:image" content="https://msk33.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
@@ -130,7 +130,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html">ProkAtlas</a>
+      <a class="navbar-brand" href="https://msk33.github.io/prokatlas.html">ProkAtlas</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,7 +142,7 @@
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html/#about" data-target="#about">
+          <a class="nav-link" href="https://msk33.github.io/prokatlas.html/#about" data-target="#about">
             <span>About</span>
          </a>
         </li>
@@ -154,19 +154,19 @@
         </li>-->
  
         <li class="nav-item">
-          <a class="nav-link" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html/#usage" data-target="#usage">
+          <a class="nav-link" href="https://msk33.github.io/prokatlas.html/#usage" data-target="#usage">
             <span>Usage</span>
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html/#download" data-target="#download">
+          <a class="nav-link" href="https://msk33.github.io/prokatlas.html/#download" data-target="#download">
             <span>Download</span>
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html/#contact" data-target="#contact">
+          <a class="nav-link" href="https://msk33.github.io/prokatlas.html/#contact" data-target="#contact">
             <span>Contact</span>
           </a>
         </li>
@@ -345,8 +345,8 @@
     <h1>How to use ProkAtlas</h1>
   </div>
   <div class="col-12 col-lg-8">
-    <p>We provide web user interface in the below. We also provide databases and scripts for calculating habitability indices.</p>
-    <p>To get the habitability of individual prokaryotic species, just submit their intact 16S ribosomal RNA/DNA sequence(s). If you like to calculate <i>habit compositions</i> of prokaryotic communities, submit a tab-spaced OTU table along with 16S rRNA/rDNA sequences (i.e. OTU representative sequences).</p>
+    <p><a href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html">We provide web user interface from here</a>. We also provide databases and scripts for calculating habitability indices.</p>
+    <p>To get the habitability of individual prokaryotic species, you just need their intact 16S ribosomal RNA/DNA sequence(s). If you like to calculate <i>habit compositions</i> of prokaryotic communities, also prepare a tab-spaced OTU table along with 16S rRNA/rDNA sequences (i.e. OTU representative sequences).</p>
   </div>
 </div>
     </div>
@@ -356,91 +356,6 @@
 
 
 
-
-  <section id="searching_indiv" class="home-section wg-pages   " >
-    <div class="container">
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Search!</h1>
-    <h3>For individual species</h3>
-  </div>
-  <div class="col-12 col-lg-8">
-
-<b>Paste 16S rRNA sequence(s) in FASTA format:</b> (<a href="javascript:void()" onclick="javascript:sample3();">Paste example</a>)<br>
-* Note that the file size should be smaller than 5MB.
-<!--<div class="indent"></div>-->
-<form name="area2" action="./execute_prokatlas_indv.cgi" method="post" enctype="multipart/form-data">
-  <!--<div class="options">
-  If you are uploading multi-FASTA sequences and treating them as one group, check <input type="checkbox" name="option" value="a"><br>-->
-<textarea name="textin4" cols="55" rows="8" wrap="on"></textarea><br>
-<b>Or upload a FASTA file: </b><input type="file" name="upload4"><br>
-<!--<input type="submit" name="sub" value="Execute!">
-<input type="reset" name="reset" value="Reset"><br>-->
-<br><br>
-
-<b>Email address:</b><br>
-* Your results will be sent to the address here
-<!--<div class="indent"></div>-->
-<textarea name="textin5" cols="55" rows="1" wrap="on"></textarea><br>
-<input type="submit" name="sub" value="Execute!">  <input type="reset" name="reset" value="Reset"><br>
-</form>
-  </div>
-</div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-  <section id="searching" class="home-section wg-pages   " >
-    <div class="container">
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Search!</h1>
-    <h3>For community composition data</h3>
-  </div>
-  <div class="col-12 col-lg-8">
-
-<b>Paste 16S rRNA sequence(s) in FASTA format:</b> (<a href="javascript:void()" onclick="javascript:sample();">Paste example</a>)<br>
-* Note that the file size should be smaller than 5MB.
-<!--<div class="indent"></div>-->
-<form name="area" action="./execute_prokatlas.cgi" method="post" enctype="multipart/form-data">  
-  <!--<div class="options">
-  If you are uploading multi-FASTA sequences and treating them as one group, check <input type="checkbox" name="option" value="a"><br>-->
-<textarea name="textin" cols="55" rows="8" wrap="on"></textarea><br>
-<b>Or upload a FASTA file: </b><input type="file" name="upload"><br>
-<!--<input type="submit" name="sub" value="Execute!">
-<input type="reset" name="reset" value="Reset"><br>-->
-<br><br>
-
-
-
-<b>Paste OTU table:</b> (<a href="javascript:void()" onclick="javascript:sample2();">Paste example</a>)<br>
-* Format of OTU table must comply that of the example file<br>
-* OTU names and sequence names in the fasta file must be consistent
-<!--<div class="indent"></div>-->
-<!--<form name="area" action="./execute_prokatlas.cgi" method="post" enctype="multipart/form-data">-->
-<textarea name="textin2" cols="55" rows="8" wrap="on"></textarea><br>
-<b>Or upload a tab-spaced file: </b><input type="file" name="upload2"><br>
-<br>
-<br>
-
-
-
-
-<b>Email address:</b><br>
-* Your results will be sent to the address here
-<!--<div class="indent"></div>-->
-<textarea name="textin3" cols="55" rows="1" wrap="on"></textarea><br>
-<input type="submit" name="sub" value="Execute!">  <input type="reset" name="reset" value="Reset"><br>
-</form>
-  </div>
-</div>
-    </div>
-  </section>
 
 
 
@@ -449,11 +364,10 @@
     <div class="container">
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Overview</h1>
+    <h1>History</h1>
   </div>
   <div class="col-12 col-lg-8">
-    XXXXX<br>
-    2019-09-XX Released ProkAtlas.
+    2019-10-01  Released ProkAtlas.
   </div>
 </div>
     </div>
@@ -471,12 +385,12 @@
 <div class="row">
   
     <div class="col-12 col-lg-4 section-heading">
-      <h1>Citation</h1>
+      <h1>Download</h1>
       <!--<p>Former/present supervisors, coworkers</p>-->
     </div>
     <div class="col-12 col-lg-8">
       <p>ProkAtlas database is available from <a href="http://mmdb.aori.u-tokyo.ac.jp/ZZ_ALL_rd100_01.fasta" target="_blank">here</a>.</p>
-      <p></p>
+      <p>Source code for calculating microbial habitability index is available from here (python code). This script requires pandas.</p>
     </div>
 </div>
 
