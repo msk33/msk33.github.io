@@ -2,15 +2,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126959829-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-126959829-2');
-</script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +9,7 @@
   <meta name="generator" content="Source Themes Academic 4.1.0">
   <meta name="generator" content="Hugo 0.54.0" />
   <meta name="author" content="ProkAtlas">
-  <meta name="description" content="Habitat Preference Database and Estimation Toolkit for Prokaryotes">
+  <meta name="description" content="Habitat Database of Prokaryotes">
   <link rel="alternate" hreflang="en-us" href="https://msk33.github.io/prokatlas.html">
 
   <meta name="theme-color" content="#795548">
@@ -86,7 +77,7 @@
   <meta property="og:site_name" content="ProkAtlas">
   <meta property="og:url" content="https://msk33.github.io/prokatlas.html">
   <meta property="og:title" content="ProkAtlas">
-  <meta property="og:description" content="Habit Preference Database and Estimation Toolkit for Prokaryotes"><meta property="og:image" content="https://msk33.github.io/img/icon-192.png">
+  <meta property="og:description" content="Habitat Database of Prokaryotes"><meta property="og:image" content="https://msk33.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2019-08-26T00:00:00&#43;09:00">
@@ -175,8 +166,8 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="http://prokatlas.bs.s.u-tokyo.ac.jp/">
-            <span>  Online Toolkit of ProkAtlas  </span>
+          <a class="nav-link" href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html">
+            <span>  ProkAtlas Online  </span>
           </a>
         </li>
 
@@ -229,7 +220,7 @@
 
     
     <h2>ProkAtlas: Atlas of Prokaryotes in Various Environments</h2>
-    <p><b>Habitat Preference Database and Estimation Toolkit for Prokaryotes</b></p>
+    <p><b>Which environments can your microbes inhabit?</b></p>
     <p>ProkAtlas is a bioinformatic database and analysis pipeline that infer the habitat environment of prokaryotes from their 16S rRNA gene sequences.<br></p>
     <p>Although prokaryotic species are distributed worldwide, these species cannot adapt to every environment.<br>Each species can proliferate in a specific combination of environmental settings to a different extent, leading to the current biodiversity of the microbial ecology.<br>Thus, habitat information well represents the ecological traits of prokaryotes.</p>
     <p>By using ProkAtlas, you can answer questions such as the following:
@@ -239,7 +230,7 @@
         <li>Where did/will the ancestors/descendants of these prokaryotes inhabit?</li>
       </ul>
     </p>
-    <p>ProkAtlas is also applicable to community-scale data (such as 16S rRNA/rDNA amplicon sequences): prokaryotic community composition data can be presented as the "composition of habitats". This may be useful in interpreting prokaryotic community (i.e. 16S sequencing) data in a trait-centric manner.</p>
+    <p>ProkAtlas is also applicable to community-scale data (such as 16S rRNA/rDNA amplicon sequences): prokaryotic community composition data can be presented as the "composition of habitats".</p>
     <p>ProkAtlas searches its environmental 16S rRNA database and reveals which environments the species bearing the query 16S rRNA(s) can be found.</p>
 
   </div>
@@ -257,8 +248,8 @@
     <h1>How to use ProkAtlas</h1>
   </div>
   <div class="col-12 col-lg-8">
-    <p><a href="http://prokatlas.bs.s.u-tokyo.ac.jp/"><b>We provide web user interface (ProkAtlas Online) here</b></a>. We also provide databases and scripts for calculating habitat preference scores.</p>
-    <p>To obtain the habitat preference scores of individual prokaryotic species, you just need their intact 16S ribosomal RNA/DNA sequence(s). If you like to calculate <i>habit compositions</i> of prokaryotic communities, also prepare a tab-spaced OTU table along with 16S rRNA/rDNA sequences (i.e. OTU representative sequences).</p>
+    <p><a href="http://mmdb.aori.u-tokyo.ac.jp/prokatlas.html">We provide web user interface (ProkAtlas Online) here</a>. We also provide databases and scripts for calculating habitability indices.</p>
+    <p>To get the habitability of individual prokaryotic species, you just need their intact 16S ribosomal RNA/DNA sequence(s). If you like to calculate <i>habit compositions</i> of prokaryotic communities, also prepare a tab-spaced OTU table along with 16S rRNA/rDNA sequences (i.e. OTU representative sequences).</p>
   </div>
 </div>
     </div>
@@ -271,9 +262,7 @@
     <h1>History</h1>
   </div>
   <div class="col-12 col-lg-8">
-    Aug 20, 2020  Pipeline has been minorly updated to improve the readability of scripts.</br>
-    Jun 29, 2020  Database and pipelines have been updated.</br>
-    Oct 01, 2019  Released ProkAtlas.
+    2019-10-01  Released ProkAtlas.
   </div>
 </div>
     </div>
@@ -294,8 +283,9 @@
       <h1>Download</h1>
     </div>
     <div class="col-12 col-lg-8">
-      <p>ProkAtlas database is available <b><a href="http://prokatlas.bs.s.u-tokyo.ac.jp/ProkAtlas.fa" target="_blank">here</a></b>.</p>
-      <p>Source code for calculating microbial habitat preference scores is available <b><a href="https://msk33.github.io/prokatlas_standalone_200905.zip">here</a></b>. This pipeline requires (1)blast+, (2)python, and (3)pandas package therein.</p>
+      <p>ProkAtlas database is available <a href="http://mmdb.aori.u-tokyo.ac.jp/ZZ_ALL_rd100_01.fasta" target="_blank">here</a>.</p>
+      <p>Source code for calculating microbial habitability index is available <a href="http://mmdb.aori.u-tokyo.ac.jp/ProkAtlas_standalone_191021.zip">here</a>. This script requires pandas.</p>
+
     </div>
 </div>
 
@@ -328,6 +318,7 @@
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email">mise-33 [at] bs.s.u-tokyo.ac.jp (<a href="https://msk33.github.io">Kazumori Mise</a>)</span></br>
         <span id="person-email" itemprop="email">iwasaki [at] bs.s.u-tokyo.ac.jp (<a href="http://iwasakilab.bs.s.u-tokyo.ac.jp/iwasaki/eindex.html">Wataru Iwasaki</a>)</span>
       </li>
       
