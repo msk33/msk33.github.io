@@ -167,7 +167,7 @@
 
         <li class="nav-item">
           <a class="nav-link" href="http://prokatlas.bs.s.u-tokyo.ac.jp/">
-            <span>  ProkAtlas Online  </span>
+            <span>Online Toolkit</span>
           </a>
         </li>
 
@@ -195,34 +195,45 @@
 
 
 
-  
+
+
+
+<div class="hero-area overflow-hidden" id="top" style="background-color:#305596;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <br>
+        <img style="width: 100%; max-width: 1100px; height: auto;" src="img/prokatlas_logo.jpg">
+<!--        <h1 class="display-3 text-white">Image Manipulation Detector</h1>-->
+<!--        <p class="lead text-white">Automatic detection of image manipulations in life sciences papers.</p>-->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="bs-component">
+          <br>
+          <p><a href="#download"><button class="btn btn-success btn-lg mr-3"><i class="fa fa-download fa-lg fa-fw text-white"></i> Download</button></a> <a href="http://prokatlas.bs.s.u-tokyo.ac.jp/"><button class="btn btn-success btn-lg mr-3"><i class="fa fa-desktop fa-lg fa-fw text-white"></i> Online Toolkit</button></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 <!-- About --->
   <section id="about" class="home-section wg-about   " >
     <div class="container">
 
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      <img class="portrait" src="http://mmdb.aori.u-tokyo.ac.jp/images/logo.png" itemprop="image" alt="Avatar">
-      <div class="portrait-title">
-        <h2 itemprop="name">ProkAtlas</h2>
-        <!--<h3 itemprop="jobTitle">Ph.D. Candidate</h3>-->
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <span itemprop="name">Environmental Atlas of Prokaryotes</span>
-        </h3>
-      </div>
-
-      <link itemprop="url" href="">
-    </div>
-  </div>
-  <div class="col-12 col-lg-8" itemprop="description">
+  <div class="col-12 col-lg-12" itemprop="description">
 
     <!--<p><font color="red"><b>ProkAtlas Online will be unavailable due to the building maintenance between 1:30PM 26th Sep – 5:30AM 27th Sep (UTC).</b></font></p>-->
-    <h2>ProkAtlas: Atlas of Prokaryotes in Various Environments</h2>
-    <p><b>Which environments can your microbes inhabit?</b></p>
+    <h1>Habitat preferences of Prokaryotes</h1>
     <p>ProkAtlas is a bioinformatic database and analysis pipeline that infer the habitat environment of prokaryotes from their 16S rRNA gene sequences.<br></p>
-    <p>Although prokaryotic species are distributed worldwide, these species cannot adapt to every environment.<br>Each species can proliferate in a specific combination of environmental settings to a different extent, leading to the current biodiversity of the microbial ecology.<br>Thus, habitat information well represents the ecological traits of prokaryotes.</p>
+    <p>Although prokaryotic species are distributed worldwide, these species cannot adapt to every environment. Each species can proliferate in a specific combination of environmental settings to a different extent, leading to the current biodiversity of the microbial ecology. Thus, habitat information well represents the ecological traits of prokaryotes.</p>
     <p>By using ProkAtlas, you can answer questions such as the following:
       <ul>
         <li>To which environments can my microbes adapt?</li>
@@ -244,10 +255,8 @@
   <section id="usage" class="home-section wg-usage   " >
     <div class="container">
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
+  <div class="col-12 col-lg-12">
     <h1>How to use ProkAtlas</h1>
-  </div>
-  <div class="col-12 col-lg-8">
     <!--<p><font color="red"><b>ProkAtlas Online will be unavailable due to the building maintenance between 1:30PM 26th Sep – 5:30AM 27th Sep (UTC).</b></font></p>-->
     <p><a href="http://prokatlas.bs.s.u-tokyo.ac.jp/">We provide web user interface (ProkAtlas Online) here</a>. We also provide databases and scripts for calculating habitat preference scores.</p>
     <p>To obtain the habitat preference information of individual prokaryotic species, you just need their intact 16S ribosomal RNA/DNA sequence(s). If you like to calculate habitat preference scores (i.e. <i>habitat compositions</i>) of prokaryotic communities, also prepare a tab-spaced OTU table along with 16S rRNA/rDNA sequences (i.e. OTU representative sequences).</p>
@@ -259,10 +268,8 @@
   <section id="posts" class="home-section wg-pages   " >
     <div class="container">
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
+  <div class="col-12 col-lg-12 section-heading">
     <h1>History</h1>
-  </div>
-  <div class="col-12 col-lg-8">
     2020-08-30  Updated pipelines.<br>
     2020-06-28  Updated pipelines and database.<br>
     2019-10-01  Released ProkAtlas.<br>
@@ -281,14 +288,16 @@
 
 
 <div class="row">
-  
-    <div class="col-12 col-lg-4 section-heading">
+    <div class="col-12 col-lg-12">
       <h1>Download</h1>
-    </div>
-    <div class="col-12 col-lg-8">
-      <p>ProkAtlas database is available <a href="http://msk33.github.io/ProkAtlas.fa.zip" target="_blank">here</a>.</p>
-      <p>Source code for calculating microbial habitat preference scores is available <a href="http://msk33.github.io/prokatlas_standalone_200905.zip">here</a>. This script is written in python and requires pandas.</p>
-
+      <ul>
+        <li>
+         <p><a href="http://msk33.github.io/ProkAtlas.fa.zip" target="_blank">ProkAtlas Database</a></p>
+        </li>
+        <li>
+         <p><a href="http://msk33.github.io/prokatlas_standalone_200905.zip">Source code for calculating microbial habitat preference scores</a> (This script is written in python and requires pandas)</p>
+        </li>
+      </ul>
     </div>
 </div>
 
@@ -331,15 +340,9 @@
 
 
 <div class="row contact-widget">
-  <div class="col-12 col-lg-4 section-heading">
+  <div class="col-12 col-lg-12">
     <h1>Contact</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-
+ 
     <ul class="fa-ul" itemscope>
 
       
@@ -350,7 +353,7 @@
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Yayoi 2-11-16, Bunkyo, Tokyo, Japan. Faculty of Science Building 3 Room 401, The University of Tokyo.</span>
+        <span id="person-address" itemprop="address">Yayoi 2-11-16, Bunkyo, Tokyo, Japan. <br>Faculty of Science Building 3 Room 401, The University of Tokyo.</span>
       </li>
 
       
