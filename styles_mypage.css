@@ -12,7 +12,7 @@
  **************************************************/
 
 html {
-  font-family: arial;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: inherit;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
