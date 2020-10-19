@@ -5,28 +5,34 @@ body	{margin: 0;
 	font-family: "Open Sans", sans-serif}
 
 
-/* サイト名 */
-.site h1 a	{color: #000000;
-	text-decoration: none}
+/* site name */
+
+.site h1 a	{color: #e2d4d0;
+	text-decoration: none;
+	font-weight: bold}
 
 .site h1	{margin: 0;
 	font-size: 30px}
 
 .site img	{border: none}
 
+.site a:hover	{opacity: 0.8}
 
-/* ヘッダー画像 */
+
+
+
+/* Head image */
 .topimg	{max-width: 100%;
 	height: auto;
 	vertical-align: bottom}
 
-/* キャッチコピー */
+/* Textbox on image */
 .catch	{margin: 0;
 	padding: 15px;
 	background-color: rgba(255,255,255,0.7);
 	font-size: 28px}
 
-/* ヘッダー画像にキャッチコピーを重ねる */
+/* compling layers */
 .top	{position: relative}
 
 .catch	{position: absolute;
@@ -34,8 +40,12 @@ body	{margin: 0;
 	left: 3%}
 
 
+/* Intro */
+.intro {padding-left: 15px;
+	padding-right: 15px}
 
-/* 概要 */
+
+/* Studies */
 .gaiyou a	{display: block;
 	background-color: #222222;
 	color: #ffffff;
@@ -49,11 +59,11 @@ body	{margin: 0;
 	padding-bottom: 40px;
 	font-size: 38px}
 
-.gaiyou .fa-bacteria	{background-color: #bfbd13}
+.gaiyou .fa-bacteria	{background-color: #8fbc8f}
 
-.gaiyou .fa-laptop-code	{background-color: #c58839}
+.gaiyou .fa-laptop-code	{background-color: #9dd8e6}
 
-.gaiyou .fa-seedling	{background-color: #859f46}
+.gaiyou .fa-seedling	{background-color: #cd853f}
 
 .gaiyou h1	{margin-top: 0;
 	margin-bottom: 0;
@@ -70,7 +80,7 @@ body	{margin: 0;
 	font-size: 12px}
 
 
-/* お知らせ */
+/* Recent */
 .news	{padding: 20px;
 	border: solid 5px #dddddd}
 
@@ -100,14 +110,15 @@ body	{margin: 0;
 	clear: both}
 
 .news time	{float: left;
-	width: 60px}
+	width: 130px}
 
 .news .text	{float: none;
 	width: auto;
 	margin-left: 60px}
 
 
-/* SNSメニュー */
+
+/* SNS */
 .follow ul	{margin: 0;
 	padding: 0;
 	list-style: none}
@@ -117,21 +128,22 @@ body	{margin: 0;
 	padding: 10px;
 	border-radius: 4px;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 17px;
 	text-decoration: none}
 
 .follow li a:hover	{opacity: 0.8}
 
-.follow-tw	{background-color: #63bafb}
-.follow-fb	{background-color: #5288f7}
-.follow-gp	{background-color: #f65d4a}
+.follow-gs	{background-color: #f65d4a}
+.follow-rg	{background-color: #6fefc4}
+.follow-pl	{background-color: #191970}
+.follow-oc	{background-color: #9acd32}
 
 .follow i	{margin-right: 10px;
 	font-size: 24px;
 	vertical-align: middle}
 
 
-/* 補足説明 */
+/* Follow-up */
 .follow-info	{margin-top: 0;
 	margin-bottom: 20px;
 	padding: 10px;
@@ -176,10 +188,13 @@ body	{margin: 0;
 	{padding-left: 15px;
 	padding-right: 15px}
 
+.box7
+	{padding-left: 20px;
+	padding-right: 20px}
 
 /* ボックスの上下 */
-.boxA	{padding-top: 20px;
-	padding-bottom: 10px}
+.boxA	{padding-top: 10px;
+	padding-bottom: 5px}
 
 .box4	{padding-top: 20px;
 	padding-bottom: 20px}
@@ -190,6 +205,10 @@ body	{margin: 0;
 
 .box6-1, .box6-2, .box6-3
 	{padding-bottom: 10px}
+
+
+
+
 
 
 /* ########### 359px以下 ########### */
@@ -207,13 +226,172 @@ body	{margin: 0;
 
 /* ナビゲーション */
 .menu li a	{padding: 10px 7px;
-	font-size: 11px}
+	font-size: 11px;
+	color: #e2d4d0}
 
 /* キャッチコピー */
 .catch	{padding: 5px 10px;
 	font-size: 12px}
 
 }
+
+
+
+/* Publications */
+.pub h1	{margin-top: 0;
+	margin-bottom: 20px;
+	padding-left: 13px;
+	border-left: solid 20px #c50018;
+	font-size: 30px;
+	font-weight: normal}
+
+.pub h2	{margin-top: 50px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #dddddd;
+	font-size: 28px;
+	font-weight: normal}
+
+.pub h2 i	{margin-right: 7px;
+	color: #888888}
+
+.pub p	{max-width: 640px;
+	margin-top: 0;
+	margin-bottom: 20px}
+
+.pub .lead	{max-width: 100%;
+	font-size: 20px;
+	color: #666666}
+
+.pub ul	{margin: 0;
+	padding: 0;
+	list-style: none}
+
+.pub li a	{display: block;
+	padding: 5px;
+	border-bottom: dotted 2px #dddddd;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none}
+
+.pub li a:hover	{background-color: #eeeeee}
+
+.pub .text	{float: none;
+	width: auto;
+	margin-left: 60px}
+
+.pub br {
+display: block;
+content: "";
+margin: 0.4em 0;
+}
+
+
+
+
+/* Journal Clubs */
+.jc h1 {margin-top: 0;
+	margin-bottom: 20px;
+	padding-left: 13px;
+	border-left: solid 20px #0018c5;
+	font-size: 30px;
+	font-weight: normal}
+
+.jc h2 {margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #dddddd;
+	margin-left: 6px;
+	font-size: 18px;
+	font-weight: normal}
+
+.jc h2 i {margin-right: 7px;
+	color: #888888}
+
+.jc p {max-width: 640px;
+	margin-top: 0;
+	margin-bottom: 20px}
+
+.jc ul {margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	list-style: none}
+
+.jc li {display: block;
+	padding: 5px;
+	border-bottom: dotted 2px #dddddd;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none}
+
+.jc li a:hover {background-color: #eeeeee}
+
+/* Activities */
+.activities h1 {margin-top: 0;
+	margin-bottom: 20px;
+	padding-left: 13px;
+	border-left: solid 20px #18c500;
+	font-size: 30px;
+	font-weight: normal}
+
+.activities h2 {margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #dddddd;
+	margin-left: 6px;
+	font-size: 24px;
+	font-weight: normal}
+
+.activities h2 i {margin-right: 7px;
+	color: #888888}
+
+.activities p {max-width: 640px;
+	margin-top: 0;
+	margin-bottom: 20px}
+
+.activities ul {margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	list-style: none}
+
+.activities li {display: block;
+	padding: 2px;
+	border-bottom: dotted 0px #dddddd;
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none}
+
+.activities li a:hover {background-color: #eeeeee}
+
+
+
+/* 記事 */
+.kiji h1	{margin-top: 0;
+	margin-bottom: 20px;
+	padding-left: 13px;
+	border-left: solid 20px #c50018;
+	font-size: 30px;
+	font-weight: normal}
+
+.kiji h2	{margin-top: 50px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #dddddd;
+	font-size: 28px;
+	font-weight: normal}
+
+.kiji h2 i	{margin-right: 7px;
+	color: #888888}
+
+.kiji p	{max-width: 640px;
+	margin-top: 0;
+	margin-bottom: 20px}
+
+.kiji .lead	{max-width: 100%;
+	font-size: 20px;
+	color: #666666}
+
+.kijiimg	{max-width: 100%;
+	height: auto;
+	margin-bottom: 20px}
+
+
 
 
 
@@ -249,7 +427,7 @@ body	{margin: 0;
 
 .menu li a	{display: block;
 	padding: 5px;
-	color: #000000;
+	color: #e2d4d0;
 	font-size: 14px;
 	text-decoration: none}
 
@@ -273,8 +451,9 @@ body	{margin: 0;
 
 .menu li a	{display: block;
 	padding: 10px 15px;
-	color: #000000;
+	color: #e2d4d0;
 	font-size: 14px;
+	font-weight: 900;
 	text-decoration: none}
 
 .menu li a:hover	{background-color: #eeeeee}
@@ -287,15 +466,27 @@ body	{margin: 0;
 	width: auto}
 
 /* BOX1とBOX2を横に並べる設定 */
+
+.boxA {
+	background-color: #795548
+}
+
 .boxA:after	{content: "";
 	display: block;
-	clear: both}
+	clear: both
+}
 
 .box1	{float: left;
-	width: auto}
+	width: auto;
+	background-color: #795548;
+	color: #e2d4d0
+}
 
 .box2	{float: right;
-	width: auto}
+	width: auto;
+	background-color: #795548
+}
+
 
 /* BOX4-1とBOX4-2を横に並べる設定 */
 .box4:after	{content: "";
@@ -314,6 +505,10 @@ body	{margin: 0;
 
 
 /* BOX6-1、BOX6-2、BOX6-3を横に並べる設定 */
+.box6 {display: flex;
+  flex-wrap: wrap;
+  }
+
 .box6:after	{content: "";
 	display: block;
 	clear: both}
@@ -329,7 +524,37 @@ body	{margin: 0;
 .box6-3	{float: left;
 	width: 32%}
 
+
+/* BOX7-1、BOX7-2 を横に並べる設定（pub list） */
+.box7:after {content: "";
+	display: block;
+	clear: both}
+
+.box7-0:after {content: "";
+	display: flex;
+	flex-direction: column;
+	clear: both}
+
+.box7-1	{float: left;
+	border: solid 0px #000000;
+	width: 3%;
+	margin-right: 1%;
+	color: #000000;
+	text-align: right
+	}
+
+.box7-2	{float: left;
+	margin-right: 0%;
+	width: 95%;
+	line-height: 150%;
+	margin: 
+	}
+
 }
+
+
+
+
 
 
 /* ########### 1190px以上 ########### */
