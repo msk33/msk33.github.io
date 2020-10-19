@@ -2,7 +2,9 @@
 
 
 body	{margin: 0;
-	font-family: "Lato"}
+	font-family: "Lato";
+	background-color: #F0E1DF;
+}
 
 
 /* site name */
@@ -42,7 +44,11 @@ body	{margin: 0;
 
 /* Intro */
 .intro {padding-left: 15px;
-	padding-right: 15px}
+	padding-right: 15px;
+	font-size: 20px;
+	background-color: #EEE;
+	padding: 20px;
+}
 
 
 /* Studies */
@@ -57,7 +63,7 @@ body	{margin: 0;
 .gaiyou i	{display: block;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	font-size: 38px}
+	font-size: 70px}
 
 .gaiyou .fa-bacteria	{background-color: #67AEC5}
 
@@ -82,7 +88,7 @@ body	{margin: 0;
 
 /* Recent */
 .news	{padding: 20px;
-	border: solid 5px #dddddd}
+	border: solid 5px #bbb}
 
 .news h1	{margin-top: 0;
 	margin-bottom: 5px;
@@ -95,7 +101,7 @@ body	{margin: 0;
 
 .news li a	{display: block;
 	padding: 5px;
-	border-bottom: dotted 2px #dddddd;
+	border-bottom: dotted 2px #bbb;
 	color: #000000;
 	font-size: 14px;
 	text-decoration: none}
@@ -298,10 +304,10 @@ margin: 0.4em 0;
 
 .jc h2 {margin-top: 20px;
 	margin-bottom: 10px;
-	border-bottom: solid 1px #dddddd;
+	border-bottom: solid 0px #888;
 	margin-left: 6px;
 	font-size: 18px;
-	font-weight: normal}
+	font-weight: bold}
 
 .jc h2 i {margin-right: 7px;
 	color: #888888}
@@ -317,8 +323,8 @@ margin: 0.4em 0;
 
 .jc li {display: block;
 	padding: 5px;
-	border-bottom: dotted 2px #dddddd;
-	color: #000000;
+	border-bottom: dotted 2px #bbb;
+	color: #444;
 	font-size: 14px;
 	text-decoration: none}
 
@@ -354,15 +360,58 @@ margin: 0.4em 0;
 .activities li {display: block;
 	padding: 2px;
 	border-bottom: dotted 0px #dddddd;
-	color: #000000;
-	font-size: 18px;
+	color: #444;
+	font-size: 16px;
+	font-weight: thin;
 	text-decoration: none}
 
 .activities li a:hover {background-color: #eeeeee}
 
 
+/* contact */
+.contact h1 {margin-top: 0;
+	margin-bottom: 20px;
+	padding-left: 13px;
+	border-left: solid 20px #666666;
+	font-size: 30px;
+	font-weight: normal}
+
+.contact h2 {margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #dddddd;
+	margin-left: 6px;
+	font-size: 24px;
+	font-weight: normal}
+
+.contact h2 i {margin-right: 7px;
+	color: #888888}
+
+.contact p {/*max-width: 640px;*/
+	margin-top: 0;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	font-size: 20px
+	}
+
+.contact ul {margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	list-style: none}
+
+.contact li {display: block;
+	padding: 2px;
+	border-bottom: dotted 0px #dddddd;
+	color: #000000;
+	font-size: 24px;
+	text-decoration: none}
+
+.contact li a:hover {background-color: #eeeeee}
+
+
+
 
 /* 記事 */
+/*
 .kiji h1	{margin-top: 0;
 	margin-bottom: 20px;
 	padding-left: 13px;
@@ -390,7 +439,7 @@ margin: 0.4em 0;
 .kijiimg	{max-width: 100%;
 	height: auto;
 	margin-bottom: 20px}
-
+*/
 
 
 
@@ -550,7 +599,9 @@ color: #795548}
 .box7-0:after {content: "";
 	display: flex;
 	flex-direction: column;
-	clear: both}
+	clear: both;
+	padding-bottom: 20px;
+}
 
 .box7-1	{float: left;
 	border: solid 0px #000000;
@@ -564,7 +615,22 @@ color: #795548}
 	margin-right: 0%;
 	width: 95%;
 	line-height: 135%;
-	margin: 
+	}
+
+.box7-4	{float: left;
+	border: solid 0px #000000;
+	width: 5%;
+	margin-right: 0%;
+	color: #000000;
+	text-align: center;
+	vertical-align: middle
+	}
+
+.box7-5	{float: left;
+	margin-right: 0%;
+	width: 95%;
+	line-height: 135%;
+	vertical-align: middle
 	}
 
 }
