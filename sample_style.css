@@ -2,7 +2,7 @@
 
 
 body	{margin: 0;
-	font-family: "Open Sans", sans-serif}
+	font-family: "Lato"}
 
 
 /* site name */
@@ -59,11 +59,11 @@ body	{margin: 0;
 	padding-bottom: 40px;
 	font-size: 38px}
 
-.gaiyou .fa-bacteria	{background-color: #8fbc8f}
+.gaiyou .fa-bacteria	{background-color: #67AEC5}
 
-.gaiyou .fa-laptop-code	{background-color: #9dd8e6}
+.gaiyou .fa-laptop-code	{background-color: #E593B4}
 
-.gaiyou .fa-seedling	{background-color: #cd853f}
+.gaiyou .fa-seedling	{background-color: #F5C96D}
 
 .gaiyou h1	{margin-top: 0;
 	margin-bottom: 0;
@@ -133,7 +133,7 @@ body	{margin: 0;
 
 .follow li a:hover	{opacity: 0.8}
 
-.follow-gs	{background-color: #f65d4a}
+.follow-gs	{background-color: #3467BD}
 .follow-rg	{background-color: #6fefc4}
 .follow-pl	{background-color: #191970}
 .follow-oc	{background-color: #9acd32}
@@ -431,7 +431,24 @@ margin: 0.4em 0;
 	font-size: 14px;
 	text-decoration: none}
 
-.menu li a:hover	{background-color: #eeeeee}
+.menu li a:hover	{background-color: #eeeeee;
+color: #795548}
+
+
+.boxA {
+	background-color: #795548
+}
+
+.boxA:after	{content: "";
+	display: block;
+	clear: both
+}
+
+.box1	{
+	width: auto;
+	background-color: #795548;
+	color: #e2d4d0
+}
 
 }
 
@@ -546,7 +563,7 @@ margin: 0.4em 0;
 .box7-2	{float: left;
 	margin-right: 0%;
 	width: 95%;
-	line-height: 150%;
+	line-height: 135%;
 	margin: 
 	}
 
@@ -561,7 +578,7 @@ margin: 0.4em 0;
 @media (min-width: 1190px) {
 
 /* 全体の横幅を固定 */
-.box3, .box4, .boxA-inner, .box5-inner, .box6
+.box3, .box4, .boxA-inner, .box5-inner, .box6, .box7
 	{width: 1140px;
 	margin-left: auto;
 	margin-right: auto}
