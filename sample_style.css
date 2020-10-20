@@ -264,9 +264,11 @@ body	{margin: 0;
 .pub h2 i	{margin-right: 7px;
 	color: #888888}
 
-.pub p	{max-width: 640px;
+.pub p	{
 	margin-top: 0;
-	margin-bottom: 20px}
+	margin-bottom: 20px;
+	text-align: center;
+	}
 
 .pub .lead	{max-width: 100%;
 	font-size: 20px;
