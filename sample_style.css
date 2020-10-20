@@ -43,11 +43,12 @@ body	{margin: 0;
 
 
 /* Intro */
-.intro {padding-left: 15px;
-	padding-right: 15px;
-	font-size: 20px;
-	background-color: #EEE;
-	padding: 20px;
+.intro {padding-left: 20px;
+	padding-right: 20px;
+	font-size: 17px;
+	background-color: #f6f6f6;
+	padding: 18px;
+	line-height: 180%
 }
 
 
@@ -246,10 +247,13 @@ body	{margin: 0;
 /* Publications */
 .pub h1	{margin-top: 0;
 	margin-bottom: 20px;
-	padding-left: 13px;
-	border-left: solid 20px #c50018;
-	font-size: 30px;
-	font-weight: normal}
+/* 	padding-left: 13px;
+	border-left: solid 20px #c50018; */
+/* 	font-size: 30px;
+	font-weight: normal; */
+	font-size: 40px;
+	font-weight: 900;
+	}
 
 .pub h2	{margin-top: 50px;
 	margin-bottom: 20px;
@@ -297,10 +301,12 @@ margin: 0.4em 0;
 /* Journal Clubs */
 .jc h1 {margin-top: 0;
 	margin-bottom: 20px;
-	padding-left: 13px;
-	border-left: solid 20px #0018c5;
-	font-size: 30px;
-	font-weight: normal}
+/* 	padding-left: 13px;
+	border-left: solid 20px #0018c5; */
+/* 	font-size: 30px;
+	font-weight: normal; */
+	font-size: 40px;
+	font-weight: 900;}
 
 .jc h2 {margin-top: 20px;
 	margin-bottom: 10px;
@@ -333,10 +339,12 @@ margin: 0.4em 0;
 /* Activities */
 .activities h1 {margin-top: 0;
 	margin-bottom: 20px;
-	padding-left: 13px;
-	border-left: solid 20px #18c500;
-	font-size: 30px;
-	font-weight: normal}
+/* 	padding-left: 13px;
+	border-left: solid 20px #18c500; */
+/* 	font-size: 30px;
+	font-weight: normal; */
+	font-size: 40px;
+	font-weight: 900;}
 
 .activities h2 {margin-top: 20px;
 	margin-bottom: 10px;
@@ -371,10 +379,12 @@ margin: 0.4em 0;
 /* contact */
 .contact h1 {margin-top: 0;
 	margin-bottom: 20px;
-	padding-left: 13px;
-	border-left: solid 20px #666666;
-	font-size: 30px;
-	font-weight: normal}
+/* 	padding-left: 13px;
+	border-left: solid 20px #666666; */
+/* 	font-size: 30px;
+	font-weight: normal; */
+	font-size: 40px;
+	font-weight: 900;}
 
 .contact h2 {margin-top: 20px;
 	margin-bottom: 10px;
@@ -390,7 +400,7 @@ margin: 0.4em 0;
 	margin-top: 0;
 	margin-bottom: 15px;
 	margin-left: 20px;
-	font-size: 20px
+	font-size: 17px
 	}
 
 .contact ul {margin: 0;
@@ -475,9 +485,9 @@ margin: 0.4em 0;
 	list-style: none}
 
 .menu li a	{display: block;
-	padding: 5px;
+	padding: 3px;
 	color: #e2d4d0;
-	font-size: 14px;
+	font-size: 17px;
 	text-decoration: none}
 
 .menu li a:hover	{background-color: #eeeeee;
@@ -499,7 +509,51 @@ color: #795548}
 	color: #e2d4d0
 }
 
+/* BOX7-1、BOX7-2 を横に並べる設定 */
+.box7:after {content: "";
+	display: block;
+	clear: both}
+
+.box7-0:after {content: "";
+	display: flex;
+	flex-direction: column;
+	clear: both;
+	padding-bottom: 20px;
 }
+
+.box7-1	{float: left;
+	border: solid 0px #000000;
+	width: 3%;
+	margin-right: 1%;
+	color: #000000;
+	text-align: right
+	}
+
+.box7-2	{float: left;
+	margin-right: 0%;
+	width: 95%;
+	line-height: 135%;
+	}
+
+.box7-4	{float: left;
+	border: solid 0px #000000;
+	width: 5%;
+	margin-right: 0%;
+	color: #000000;
+	text-align: center;
+	vertical-align: middle
+	}
+
+.box7-5	{float: left;
+	margin-right: 0%;
+	width: 95%;
+	line-height: 135%;
+	vertical-align: middle
+	}
+
+}
+
+
 
 
 /* ########### 768px以上 ########### */
@@ -516,13 +570,14 @@ color: #795548}
 	list-style: none}
 
 .menu li a	{display: block;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	color: #e2d4d0;
-	font-size: 14px;
+	font-size: 17px;
 	font-weight: 900;
 	text-decoration: none}
 
-.menu li a:hover	{background-color: #eeeeee}
+.menu li a:hover	{background-color: #eeeeee;
+	color: #99755f}
 
 .menu ul:after	{content: "";
 	display: block;
@@ -591,7 +646,7 @@ color: #795548}
 	width: 32%}
 
 
-/* BOX7-1、BOX7-2 を横に並べる設定（pub list） */
+/* BOX7-1、BOX7-2 を横に並べる設定 */
 .box7:after {content: "";
 	display: block;
 	clear: both}
@@ -619,16 +674,16 @@ color: #795548}
 
 .box7-4	{float: left;
 	border: solid 0px #000000;
-	width: 5%;
+	width: 2%;
 	margin-right: 0%;
 	color: #000000;
-	text-align: center;
-	vertical-align: middle
+	text-align: right;
+	vertical-align: middle;
 	}
 
 .box7-5	{float: left;
 	margin-right: 0%;
-	width: 95%;
+	width: 98%;
 	line-height: 135%;
 	vertical-align: middle
 	}
